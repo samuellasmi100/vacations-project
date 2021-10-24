@@ -1,0 +1,48 @@
+/* 
+section {
+    font-family: "roboto"; 
+    color: #000;
+    font-size: 15px; 
+     width: 100%;
+    height: 100%;
+  }  */
+section .banner .banner-text .btn {
+  padding: 8px 30px;
+  color: #fff;
+  background-color: #FF4F5A;
+  border: 1px solid #FF4F5A;
+  border-radius: 50px;
+}
+
+section .banner .banner-text .btn:hover {
+  background-color: transparent;
+  color: #FF4F5A;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+section .banner .banner-text h1 {
+  font-size: 70px;
+  color: #FF4F5A;
+  font-family: "Caveat Brush";
+  margin-bottom: 20px;
+}
+
+section .banner .banner-text p {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    padding: 0;
+  }
+  .banner-text {
+    padding: 35px;
+}
+}

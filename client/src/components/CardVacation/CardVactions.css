@@ -1,0 +1,75 @@
+
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap"); 
+
+
+.vacation {
+  font-family: 'Ballo 2',cursive;
+  box-shadow: 0 3px 10px -3px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 473px;
+  padding: 24px;
+  margin: 40px 20px;
+  height: 585px;
+}
+.vacation-img  {
+  position: relative;
+  top: -57px;
+
+}
+.vacation-img img {
+  width: 100%;
+  height: 250px;
+  box-shadow: 0 6px 12px -4px black;
+}
+.destination {
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 6px black;
+}
+.vacation .vacation-details button {
+  padding: 8px 30px;
+  color: #fff;
+  background-color: #FF4F5A;
+  border: 1px solid #FF4F5A;
+  transition: .5s; 
+  border-radius: 50px;
+}
+.vacation-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -45px;
+}
+.vacation-details Button {
+  font-weight: bold;
+}
+.details p {
+  text-align: center;
+  color: gray;
+}
+.icons {
+  display: flex;
+  margin: 15px;
+}
+.date {
+  display: flex;
+  padding-left: 65px;
+}
+.icons li {
+  list-style: none;
+  margin: 0 12px;
+}
+.icons li a {
+  text-decoration: none;
+  font-size: 22px;
+}
+.description {
+  max-height: 132px;
+  overflow: auto;
+  margin: 20px 0;
+}
